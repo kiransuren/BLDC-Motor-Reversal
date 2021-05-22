@@ -1,0 +1,2 @@
+Change Component Footprint: Designator=Q1 Old Footprint=S1GB-13-F_DIODE New Footprint=SOT95P237X112-3N_NMOSFET
+Added Pin To Net: NetName=PHASE_CONTROL_FET Pin=Q1-3
