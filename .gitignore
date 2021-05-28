@@ -15,7 +15,9 @@ __Previews
 *.$$$
 
 # Useless dirs
-Project\ Logs
+Project*Logs/
+Project*Outputs*for*BLDC_Motor_Reversal/
+Project*Logs*for*BLDC_Motor_Reversal/
 
 #History
 History
