@@ -1,0 +1,3 @@
+3DX_CUI_DEVICES_Supplier: CUI Devices
+3DX_CUI_DEVICES_Description: 2~24 Poles, Screwless, Vertical, 10.00 Pitch, 18~4 (AWG), Terminal Block Connector
+3DX_CUI_DEVICES_Model Number: TBL008V-1000-03BE
