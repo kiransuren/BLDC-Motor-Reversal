@@ -106,7 +106,11 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
+<<<<<<< HEAD
+DocumentUniqueId=NWQPNJFY
+=======
 DocumentUniqueId=XKYJXEUD
+>>>>>>> ff32fc82274da8f1ae704f248720987cf02a23e1
 
 [Configuration1]
 Name=Sources
@@ -131,7 +135,7 @@ AddNetNetLabels=-1
 AddNetPorts=-1
 ShowComponentParameters=-1
 GlobalBookmarks=0
-ExportBOM=-1
+ExportBOM=0
 TemplateFilename=C:\Users\kiran\src\hardware\BLDC-Motor-Reversal\Rev2\Board Stack Report.XLT
 TemplateStoreRelative=0
 PCB_PrintColor=1
@@ -160,7 +164,7 @@ OutputDir=
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=HP5FB0E0 (HP OfficeJet Pro 8710)
+TargetPrinter=Samsung CLP-320 Series (USB001)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -266,7 +270,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Samsung CLP-320 Series (USB001)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -346,7 +350,7 @@ PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=HP5FB0E0 (HP OfficeJet Pro 8710)
+TargetPrinter=Samsung CLP-320 Series (USB001)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -368,7 +372,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=HP5FB0E0 (HP OfficeJet Pro 8710)
+TargetPrinter=Samsung CLP-320 Series (USB001)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -440,7 +444,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=HP5FB0E0 (HP OfficeJet Pro 8710)
+TargetPrinter=Samsung CLP-320 Series (USB001)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -479,17 +483,11 @@ OutputDocumentPath7=
 OutputVariantName7=[No Variations]
 OutputDefault7=0
 PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType8=BOM_ReportCompare
-OutputName8=BOM Compare
-OutputDocumentPath8=
-OutputVariantName8=[No Variations]
-OutputDefault8=0
-PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=HP5FB0E0 (HP OfficeJet Pro 8710)
+TargetPrinter=Samsung CLP-320 Series (USB001)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -597,7 +595,7 @@ PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=HP5FB0E0 (HP OfficeJet Pro 8710)
+TargetPrinter=Samsung CLP-320 Series (USB001)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_Violations
 OutputName1=BOM Checks Report
@@ -641,7 +639,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=HP5FB0E0 (HP OfficeJet Pro 8710)
+TargetPrinter=Samsung CLP-320 Series (USB001)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -702,7 +700,7 @@ OutputDefault11=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=HP5FB0E0 (HP OfficeJet Pro 8710)
+TargetPrinter=Samsung CLP-320 Series (USB001)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
@@ -1069,130 +1067,16 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
-ComponentLibIdentifierKind0=Any
-ComponentLibraryIdentifier0=
-ComponentDesignItemID0=796740-2
-ComponentSymbolReference0=796740-2
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=BLDC_Motor_SchLib.SchLib
+ComponentDesignItemID0=RC0805JR-07100KL
+ComponentSymbolReference0=RC0805JR-07100KL
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
-ComponentLibIdentifierKind1=Any
-ComponentLibraryIdentifier1=
-ComponentDesignItemID1=796740-3
-ComponentSymbolReference1=796740-3
-ComponentUpdate1=1
-ComponentIsDeviceSheet1=0
-ComponentLibIdentifierKind2=Any
-ComponentLibraryIdentifier2=
-ComponentDesignItemID2=C0805C104K5RACTU
-ComponentSymbolReference2=C0805C104K5RACTU
-ComponentUpdate2=1
-ComponentIsDeviceSheet2=0
-ComponentLibIdentifierKind3=Any
-ComponentLibraryIdentifier3=
-ComponentDesignItemID3=C0805C106K4PACTU
-ComponentSymbolReference3=C0805C106K4PACTU
-ComponentUpdate3=1
-ComponentIsDeviceSheet3=0
-ComponentLibIdentifierKind4=Any
-ComponentLibraryIdentifier4=
-ComponentDesignItemID4=RC0805JR-0710KL
-ComponentSymbolReference4=RC0805JR-0710KL
-ComponentUpdate4=1
-ComponentIsDeviceSheet4=0
-ComponentLibIdentifierKind5=Any
-ComponentLibraryIdentifier5=
-ComponentDesignItemID5=RC0805JR-0747KL
-ComponentSymbolReference5=RC0805JR-0747KL
-ComponentUpdate5=1
-ComponentIsDeviceSheet5=0
-ComponentLibIdentifierKind6=Any
-ComponentLibraryIdentifier6=
-ComponentDesignItemID6=S1GB-13-F
-ComponentSymbolReference6=S1GB-13-F
-ComponentUpdate6=1
-ComponentIsDeviceSheet6=0
-ComponentLibIdentifierKind7=Any
-ComponentLibraryIdentifier7=
-ComponentDesignItemID7=SI2312BDS-T1-E3
-ComponentSymbolReference7=SI2312BDS-T1-E3
-ComponentUpdate7=1
-ComponentIsDeviceSheet7=0
-ComponentLibIdentifierKind8=Any
-ComponentLibraryIdentifier8=
-ComponentDesignItemID8=SN74AHCT1G08DBVR
-ComponentSymbolReference8=SN74AHCT1G08DBVR
-ComponentUpdate8=1
-ComponentIsDeviceSheet8=0
-ComponentLibIdentifierKind9=Any
-ComponentLibraryIdentifier9=
-ComponentDesignItemID9=T9AS5D12-5
-ComponentSymbolReference9=T9AS5D12-5
-ComponentUpdate9=1
-ComponentIsDeviceSheet9=0
-ComponentLibIdentifierKind10=Library Name And Type
-ComponentLibraryIdentifier10=BLDC_Motor_Lib.SchLib
-ComponentDesignItemID10=796740-3
-ComponentSymbolReference10=796740-3
-ComponentUpdate10=1
-ComponentIsDeviceSheet10=0
-ComponentLibIdentifierKind11=Library Name And Type
-ComponentLibraryIdentifier11=BLDC_Motor_Lib.SchLib
-ComponentDesignItemID11=C0805C106K4PACTU
-ComponentSymbolReference11=C0805C106K4PACTU
-ComponentUpdate11=1
-ComponentIsDeviceSheet11=0
-ComponentLibIdentifierKind12=Library Name And Type
-ComponentLibraryIdentifier12=BLDC_Motor_Lib.SchLib
-ComponentDesignItemID12=S1GB-13-F
-ComponentSymbolReference12=S1GB-13-F
-ComponentUpdate12=1
-ComponentIsDeviceSheet12=0
-ComponentLibIdentifierKind13=Library Name And Type
-ComponentLibraryIdentifier13=BLDC_Motor_Lib.SchLib
-ComponentDesignItemID13=SI2312BDS-T1-E3
-ComponentSymbolReference13=SI2312BDS-T1-E3
-ComponentUpdate13=1
-ComponentIsDeviceSheet13=0
-ComponentLibIdentifierKind14=Library Name And Type
-ComponentLibraryIdentifier14=BLDC_Motor_Lib.SchLib
-ComponentDesignItemID14=T9AS5D12-5
-ComponentSymbolReference14=T9AS5D12-5
-ComponentUpdate14=1
-ComponentIsDeviceSheet14=0
-ComponentLibIdentifierKind15=Library Name And Type
-ComponentLibraryIdentifier15=BLDC_Motor_SchLib.SchLib
-ComponentDesignItemID15=C0805C104K5RACTU
-ComponentSymbolReference15=C0805C104K5RACTU
-ComponentUpdate15=1
-ComponentIsDeviceSheet15=0
-ComponentLibIdentifierKind16=Library Name And Type
-ComponentLibraryIdentifier16=BLDC_Motor_SchLib.SchLib
-ComponentDesignItemID16=RC0805JR-0710KL
-ComponentSymbolReference16=RC0805JR-0710KL
-ComponentUpdate16=1
-ComponentIsDeviceSheet16=0
-ComponentLibIdentifierKind17=Library Name And Type
-ComponentLibraryIdentifier17=BLDC_Motor_SchLib.SchLib
-ComponentDesignItemID17=RC0805JR-0747KL
-ComponentSymbolReference17=RC0805JR-0747KL
-ComponentUpdate17=1
-ComponentIsDeviceSheet17=0
-ComponentLibIdentifierKind18=Library Name And Type
-ComponentLibraryIdentifier18=BLDC_Motor_SchLib.SchLib
-ComponentDesignItemID18=SI2312BDS-T1-E3
-ComponentSymbolReference18=SI2312BDS-T1-E3
-ComponentUpdate18=1
-ComponentIsDeviceSheet18=0
-ComponentLibIdentifierKind19=Library Name And Type
-ComponentLibraryIdentifier19=BLDC_Motor_SchLib.SchLib
-ComponentDesignItemID19=SN74AHCT1G08DBVR
-ComponentSymbolReference19=SN74AHCT1G08DBVR
-ComponentUpdate19=1
-ComponentIsDeviceSheet19=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1206,44 +1090,100 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Capacitance
+ParameterName0=Case Code (Imperial)
 ParameterUpdate0=1
-ParameterName1=Case/Package
+ParameterName1=Case Code (Metric)
 ParameterUpdate1=1
-ParameterName2=Coil Current
+ParameterName2=Case/Package
 ParameterUpdate2=1
-ParameterName3=Coil Voltage (DC)
+ParameterName3=Category
 ParameterUpdate3=1
 ParameterName4=Comment
 ParameterUpdate4=1
 ParameterName5=Component Kind
 ParameterUpdate5=1
-ParameterName6=Contact Current Rating
+ParameterName6=ComponentLink1Description
 ParameterUpdate6=1
-ParameterName7=Contact Voltage Rating (AC)
+ParameterName7=ComponentLink1URL
 ParameterUpdate7=1
-ParameterName8=Current Rating
+ParameterName8=ComponentLink2Description
 ParameterUpdate8=1
-ParameterName9=Description
+ParameterName9=ComponentLink2URL
 ParameterUpdate9=1
-ParameterName10=IFSM
+ParameterName10=ComponentLink3Description
 ParameterUpdate10=1
-ParameterName11=Library Reference
+ParameterName11=ComponentLink3URL
 ParameterUpdate11=1
-ParameterName12=Manufacturer
+ParameterName12=Construction
 ParameterUpdate12=1
-ParameterName13=Manufacturer 1
+ParameterName13=Contact Plating
 ParameterUpdate13=1
-ParameterName14=Manufacturer Part Number
+ParameterName14=Depth
 ParameterUpdate14=1
-ParameterName15=Manufacturer Part Number 1
+ParameterName15=Description
 ParameterUpdate15=1
-ParameterName16=Package
+ParameterName16=Features
 ParameterUpdate16=1
-ParameterName17=Resistance
+ParameterName17=Lead Free
 ParameterUpdate17=1
-ParameterName18=Supplier 1
+ParameterName18=Length
 ParameterUpdate18=1
+<<<<<<< HEAD
+ParameterName19=Library Reference
+ParameterUpdate19=1
+ParameterName20=Manufacturer
+ParameterUpdate20=1
+ParameterName21=Manufacturer Part Number
+ParameterUpdate21=1
+ParameterName22=Max Operating Temperature
+ParameterUpdate22=1
+ParameterName23=Max Power Dissipation
+ParameterUpdate23=1
+ParameterName24=Military Standard
+ParameterUpdate24=1
+ParameterName25=Min Operating Temperature
+ParameterUpdate25=1
+ParameterName26=Number of Terminations
+ParameterUpdate26=1
+ParameterName27=Packaging
+ParameterUpdate27=1
+ParameterName28=Power Rating
+ParameterUpdate28=1
+ParameterName29=Pricing 1
+ParameterUpdate29=1
+ParameterName30=Radiation Hardening
+ParameterUpdate30=1
+ParameterName31=REACH SVHC
+ParameterUpdate31=1
+ParameterName32=Resistance
+ParameterUpdate32=1
+ParameterName33=Resistance Tolerance
+ParameterUpdate33=1
+ParameterName34=Resistor Type
+ParameterUpdate34=1
+ParameterName35=RoHS
+ParameterUpdate35=1
+ParameterName36=RoHS Compliant
+ParameterUpdate36=1
+ParameterName37=Series
+ParameterUpdate37=1
+ParameterName38=Size Code
+ParameterUpdate38=1
+ParameterName39=Stock 1
+ParameterUpdate39=1
+ParameterName40=Supplier 1
+ParameterUpdate40=1
+ParameterName41=Supplier Part Number 1
+ParameterUpdate41=1
+ParameterName42=Temperature Coefficient
+ParameterUpdate42=1
+ParameterName43=Termination
+ParameterUpdate43=1
+ParameterName44=Tolerance
+ParameterUpdate44=1
+ParameterName45=Voltage Rating
+ParameterUpdate45=1
+=======
 ParameterName19=Supplier Part Number 1
 ParameterUpdate19=1
 ParameterName20=Tolerance
@@ -1286,6 +1226,7 @@ ModelUpdate8=1
 ModelType9=PCBLIB
 ModelName9=T9AS5D12-5
 ModelUpdate9=1
+>>>>>>> ff32fc82274da8f1ae704f248720987cf02a23e1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
